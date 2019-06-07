@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
         <title>Aser Garcia</title>
 <!--Required meta tags-->
 <meta charset="utf-8"/>
@@ -21,27 +22,6 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-<!--NavBar-->
-<nav class="navbar">
-        <span class="navbar-toggle" id="js-navbar-toggle">
-            <i class="fa fa-bars" style="background:transparent"></i>
-        </span>
-        <a href="./index.html" class="name">Aser Garcia</a>
-        <ul class="main-nav" id="js-menu">
-            <li>
-                <a href="./projects.html" class="nav-links">Projects</a>
-            </li>
-            <li>
-                <a href="./the-math.html" class="nav-links">The Math</a>
-            </li>
-            <li>
-                <a href="./assets/Aser Garcia_CV.pdf" class="nav-links">Resume</a>
-            </li>
-            <li>
-                <a href="#" class="nav-links">Contact</a>
-            </li>
-        </ul>
-</nav>
 <!--Jumbotron-->
 <div class="jumbotron">
     <div class="container">
@@ -58,8 +38,21 @@
 </div>
 
 </head>
-    <body>   
-    </body>
+
+<body>
+    <!--Navigation bar-->
+    <div id="nav-placeholder">
+
+    </div>
+
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("nav.html");
+    });
+    </script>
+    <!--end of Navigation bar-->
+</body>
+
 <!--Javascript-->
 <script src="js/main.js"></script>
 <embed pluginspage="http://www.adobe.com/products/acrobat/readstep2.html" />
