@@ -11,8 +11,10 @@ body, .container {
 }
 
 img.mapImg {
-    width: 50%;
-    height: 50%;
+    width: 80%;
+    height: 80%;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 .data-vis {
