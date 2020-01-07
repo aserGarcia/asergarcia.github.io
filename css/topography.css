@@ -10,6 +10,11 @@ body, .container {
     height: 50%;
 }
 
+img.mapImg {
+    width: 50%;
+    height: 50%;
+}
+
 .data-vis {
     float: left;
     width: 33%;
